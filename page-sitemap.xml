@@ -7,6 +7,13 @@
     </url>
     
     <url>
+        <loc>http://yoursite-url/yeager-blog/about/</loc>
+        <lastmod>2019-03-22T10:21:02.831Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
         <loc>http://yoursite-url/yeager-blog/tags/</loc>
         <lastmod>2019-03-22T02:22:27.832Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -16,13 +23,6 @@
     <url>
         <loc>http://yoursite-url/yeager-blog/archive/</loc>
         <lastmod>2019-03-22T02:08:04.191Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    
-    <url>
-        <loc>http://yoursite-url/yeager-blog/about/</loc>
-        <lastmod>2019-03-22T02:06:15.630Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
