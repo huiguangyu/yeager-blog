@@ -213,6 +213,47 @@
 
 <div class="post-preview">
 
+    <a href="/yeager-blog/2019/03/25/gitLab/">
+        <h2 class="post-title">
+            关于git remote: HTTP Basic: Access denied 的解决办法
+        </h2>
+        <h3 class="post-subtitle">
+            
+        </h3>
+        <div class="post-content-preview">
+            
+从GitLab中克隆项目时，报“git remote: HTTP Basic: Access denied ”错误;
+
+错误原因：
+
+远程服务端的用户名和密码与当前系统中git保存的用户名和密码有冲突
+
+解决办法：
+
+1.以管理员身份运行Git Bash
+2.输入”git config –system –unset credential.helper”命令（重置远程端的用户名和密码
+3.克......
+        </div>
+    </a>
+    
+        <p class="post-meta" style="margin: 10px 0;">
+            Posted by Yeager on
+            2019-03-25
+        </p>
+        <div class="tags">
+            
+              <a href="/yeager-blog/tags/#Git" title="Git">Git</a>
+            
+              <a href="/yeager-blog/tags/#GitLab" title="GitLab">GitLab</a>
+            
+        </div>
+    
+
+</div>
+<hr>
+
+<div class="post-preview">
+
     <a href="/yeager-blog/2019/03/22/hexo/">
         <h2 class="post-title">
             Hexo
@@ -300,6 +341,10 @@ hexo g -&gt; hexo s (hexo gene......
         
             
         
+            
+        
+            
+        
     </div>
 </section>
 
@@ -359,6 +404,10 @@ hexo g -&gt; hexo s (hexo gene......
   <h5>RECENT POSTS
   <div class="widget">
     <ul>
+      
+        <li>
+          <a href="/yeager-blog/2019/03/25/gitLab/">关于git remote: HTTP Basic: Access denied 的解决办法</a>
+        </li>
       
         <li>
           <a href="/yeager-blog/2019/03/22/hexo/">Hexo</a>
