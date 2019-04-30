@@ -253,8 +253,14 @@
 instanceof可以检测基本数据类型，也可以检测某些引用数据类型,因为instanceof只能通过true或者false来判断，不能直接看出来是什么类型</p>
 </li>
 <li>
-<p>exmaple</p>
+<p>原理</p>
 </li>
+</ul>
+<blockquote>
+<p>判断a对象是否是B对象的实例，即判断B的prototype是否在a对象的原型链上。在则返回true，否则返回false</p>
+</blockquote>
+<ul>
+<li>exmaple</li>
 </ul>
 <p><code>let str = '123' str instanceof String //true</code></p>
 <h5><span id="objectprototypetostring">Object.prototype.toString</span></h5>
