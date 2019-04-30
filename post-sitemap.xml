@@ -7,6 +7,14 @@
     </url>
 
     <url>
+        <loc>http://yoursite-url/yeager-blog/2019/04/30/new/</loc>
+        <lastmod>2019-04-30T02:52:50.442Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>http://yoursite-url/yeager-blog/2019/04/11/validate/</loc>
         <lastmod>2019-04-30T02:29:48.004Z</lastmod>
         <changefreq>weekly</changefreq>
