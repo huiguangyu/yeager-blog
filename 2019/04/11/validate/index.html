@@ -227,13 +227,45 @@
 <ul>
 <li>
 <p>优点：<br>
-快速返回js对象的数据类型</p>
+适合判断基本类型的数据类型</p>
 </li>
 <li>
 <p>缺点:<br>
-对对象类型都返回’object’类型</p>
+不能区分object类型的具体类型，对象类型都返回’object’类型</p>
+</li>
+<li>
+<p>exmaple</p>
 </li>
 </ul>
+<p><code>let str = '123' typeof(str) //string</code></p>
+<hr>
+<h5><span id="instanceof">instanceof</span></h5>
+<blockquote>
+<p>判断数据是否是某种类型，也可以在继承关系中用来判断一个实例是否属于它的父类型</p>
+</blockquote>
+<ul>
+<li>
+<p>优点：<br>
+适合判断对象类型的数据，同时其高级用法可判断实例是否属于其父类型，原理为原型链(可阅读其实现源码)</p>
+</li>
+<li>
+<p>缺点:<br>
+instanceof可以检测基本数据类型，也可以检测某些引用数据类型,因为instanceof只能通过true或者false来判断，不能直接看出来是什么类型</p>
+</li>
+<li>
+<p>exmaple</p>
+</li>
+</ul>
+<p><code>let str = '123' str instanceof String //true</code></p>
+<h5><span id="objectprototypetostring">Object.prototype.toString</span></h5>
+<blockquote>
+<p>通过对象都具备的toString方法，返回数据的内置类型，来精确判断。</p>
+</blockquote>
+<ul>
+<li>exmaple</li>
+</ul>
+<p><code>let str = '123' Object.prototype.toString.call.slice(8,-1) //true</code></p>
+<p>ps: slice()的第二个参数为负数时，会转换为字符串长度与参数的和。</p>
 
                 
 
@@ -269,7 +301,7 @@
         <div id="toc" class="toc-article">
         <strong class="toc-title">Contents</strong>
         
-          <ol class="toc-nav"><li class="toc-nav-item toc-nav-level-5"><a class="toc-nav-link" href="#undefined"><span class="toc-nav-number">1.</span> <span class="toc-nav-text">typeof</span></a></li></ol>
+          <ol class="toc-nav"><li class="toc-nav-item toc-nav-level-5"><a class="toc-nav-link" href="#undefined"><span class="toc-nav-number">1.</span> <span class="toc-nav-text">typeof</span></a></li><li class="toc-nav-item toc-nav-level-5"><a class="toc-nav-link" href="#undefined"><span class="toc-nav-number">2.</span> <span class="toc-nav-text">instanceof</span></a></li><li class="toc-nav-item toc-nav-level-5"><a class="toc-nav-link" href="#undefined"><span class="toc-nav-number">3.</span> <span class="toc-nav-text">Object.prototype.toString</span></a></li></ol>
         
         </div>
       </aside>
